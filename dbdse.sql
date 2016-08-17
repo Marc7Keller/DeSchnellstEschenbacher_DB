@@ -19,6 +19,10 @@ SET time_zone = "+00:00";
 --
 -- Datenbank: `dbdse`
 --
+	
+DROP DATABASE IF EXISTS dbdse;
+CREATE DATABASE dbdse;
+USE dbdse;
 
 -- --------------------------------------------------------
 
