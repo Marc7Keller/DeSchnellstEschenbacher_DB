@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.7.0
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 24. Jul 2017 um 10:38
--- Server-Version: 10.1.16-MariaDB
--- PHP-Version: 7.0.9
+-- Erstellungszeit: 14. Aug 2017 um 23:03
+-- Server-Version: 10.1.25-MariaDB
+-- PHP-Version: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -36,6 +38,8 @@ CREATE TABLE `category` (
   `year_of_birth_end` int(11) DEFAULT NULL,
   `gender` varchar(20) DEFAULT NULL,
   `fs_event` int(11) NOT NULL
+  `fs_event` int(11) NOT NULL,
+  `Plausch` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
