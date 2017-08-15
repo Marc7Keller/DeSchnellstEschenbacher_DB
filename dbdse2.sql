@@ -37,7 +37,6 @@ CREATE TABLE `category` (
   `year_of_birth_start` int(11) DEFAULT NULL,
   `year_of_birth_end` int(11) DEFAULT NULL,
   `gender` varchar(20) DEFAULT NULL,
-  `fs_event` int(11) NOT NULL
   `fs_event` int(11) NOT NULL,
   `Plausch` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
